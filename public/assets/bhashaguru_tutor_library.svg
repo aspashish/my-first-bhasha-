@@ -1,0 +1,343 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280" width="100%" height="100%">
+  <defs>
+    <!-- Background Library Atmosphere Gradients -->
+    <linearGradient id="wallWoodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E100A" />
+      <stop offset="40%" stop-color="#2D180F" />
+      <stop offset="80%" stop-color="#22120B" />
+      <stop offset="100%" stop-color="#140905" />
+    </linearGradient>
+
+    <!-- Warm Lamp Amber Glow -->
+    <radialGradient id="lampGlowLeft" cx="15%" cy="35%" r="35%">
+      <stop offset="0%" stop-color="#FFD685" stop-opacity="0.85" />
+      <stop offset="30%" stop-color="#F5A623" stop-opacity="0.45" />
+      <stop offset="70%" stop-color="#E07A10" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#1E100A" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="lampGlowRight" cx="88%" cy="38%" r="30%">
+      <stop offset="0%" stop-color="#FFE094" stop-opacity="0.75" />
+      <stop offset="35%" stop-color="#E59828" stop-opacity="0.35" />
+      <stop offset="75%" stop-color="#C26A0E" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#1E100A" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Desk Wood Gradient -->
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#542813" />
+      <stop offset="20%" stop-color="#3D1A0A" />
+      <stop offset="60%" stop-color="#291106" />
+      <stop offset="100%" stop-color="#160803" />
+    </linearGradient>
+
+    <!-- Bookshelf Wood Gradient -->
+    <linearGradient id="shelfGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A1D11" />
+      <stop offset="50%" stop-color="#2B140B" />
+      <stop offset="100%" stop-color="#1E0D06" />
+    </linearGradient>
+
+    <!-- Gold Ornament Gradient -->
+    <linearGradient id="goldLuster" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0A5" />
+      <stop offset="35%" stop-color="#F2C94C" />
+      <stop offset="70%" stop-color="#D49A24" />
+      <stop offset="100%" stop-color="#8E5E0C" />
+    </linearGradient>
+
+    <!-- Brass Antique Gradient -->
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EBD59B" />
+      <stop offset="50%" stop-color="#BFA054" />
+      <stop offset="100%" stop-color="#7A5E25" />
+    </linearGradient>
+
+    <!-- Maroon Dress Gradient -->
+    <linearGradient id="maroonKurtiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#801424" />
+      <stop offset="35%" stop-color="#6B0F1C" />
+      <stop offset="70%" stop-color="#540B15" />
+      <stop offset="100%" stop-color="#38050C" />
+    </linearGradient>
+
+    <!-- Hair Gradient -->
+    <linearGradient id="hairRichGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2C1B14" />
+      <stop offset="40%" stop-color="#1A0F0A" />
+      <stop offset="80%" stop-color="#100805" />
+      <stop offset="100%" stop-color="#080302" />
+    </linearGradient>
+
+    <!-- Skin Tone Base -->
+    <linearGradient id="skinRadiant" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8CCA8" />
+      <stop offset="40%" stop-color="#EDB389" />
+      <stop offset="85%" stop-color="#DD996D" />
+      <stop offset="100%" stop-color="#C57E52" />
+    </linearGradient>
+
+    <linearGradient id="skinContour" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D99166" />
+      <stop offset="100%" stop-color="#B76E43" />
+    </linearGradient>
+
+    <!-- Lips Gradient -->
+    <linearGradient id="lipLuster" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DF6473" />
+      <stop offset="60%" stop-color="#C23E51" />
+      <stop offset="100%" stop-color="#8F1F2F" />
+    </linearGradient>
+
+    <!-- Speaking Aura Glow -->
+    <radialGradient id="tutorAura" cx="50%" cy="45%" r="45%">
+      <stop offset="30%" stop-color="#FFD685" stop-opacity="0.15" />
+      <stop offset="70%" stop-color="#9C27B0" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- ================= BACKGROUND ROOM ================= -->
+  <!-- Base wall / dark wood wainscoting -->
+  <rect width="720" height="1280" fill="url(#wallWoodGrad)" />
+
+  <!-- Ambient light glows from lamps -->
+  <circle cx="108" cy="448" r="420" fill="url(#lampGlowLeft)" />
+  <circle cx="633" cy="486" r="380" fill="url(#lampGlowRight)" />
+
+  <!-- Center bookshelf backing behind tutor -->
+  <rect x="230" y="0" width="350" height="740" fill="#180C07" />
+  
+  <!-- Bookshelf uprights and horizontal shelves -->
+  <rect x="230" y="140" width="350" height="16" fill="url(#shelfGrad)" />
+  <rect x="230" y="290" width="350" height="16" fill="url(#shelfGrad)" />
+  <rect x="230" y="440" width="350" height="16" fill="url(#shelfGrad)" />
+  <rect x="570" y="0" width="22" height="740" fill="url(#shelfGrad)" />
+
+  <!-- Books on upper shelves -->
+  <!-- Shelf 1 Books -->
+  <rect x="245" y="40" width="26" height="100" fill="#6B2D1B" rx="2" />
+  <rect x="273" y="48" width="24" height="92" fill="#1C3D32" rx="2" />
+  <rect x="299" y="35" width="30" height="105" fill="#4A1E2B" rx="2" />
+  <rect x="331" y="45" width="22" height="95" fill="#75501B" rx="2" />
+  <rect x="355" y="38" width="28" height="102" fill="#1F2A44" rx="2" />
+  <rect x="385" y="52" width="24" height="88" fill="#5E2218" rx="2" />
+  <rect x="411" y="42" width="26" height="98" fill="#2D4436" rx="2" />
+  <rect x="439" y="36" width="32" height="104" fill="#63311A" rx="2" />
+  <rect x="473" y="46" width="24" height="94" fill="#3A1C47" rx="2" />
+  <rect x="499" y="40" width="28" height="100" fill="#1B3838" rx="2" />
+  <rect x="529" y="50" width="30" height="90" fill="#7A3B18" rx="2" />
+
+  <!-- Shelf 2 Books -->
+  <rect x="245" y="180" width="28" height="110" fill="#192A40" rx="2" />
+  <rect x="275" y="195" width="22" height="95" fill="#4A1818" rx="2" />
+  <rect x="299" y="175" width="32" height="115" fill="#6E4416" rx="2" />
+  <rect x="333" y="185" width="26" height="105" fill="#1C3829" rx="2" />
+  <rect x="470" y="182" width="28" height="108" fill="#58212C" rx="2" />
+  <rect x="500" y="192" width="24" height="98" fill="#6A4E1B" rx="2" />
+  <rect x="526" y="178" width="32" height="112" fill="#1A2D3B" rx="2" />
+
+  <!-- Gold foil lines on book spines -->
+  <line x1="248" y1="65" x2="268" y2="65" stroke="url(#goldLuster)" stroke-width="2" />
+  <line x1="302" y1="60" x2="326" y2="60" stroke="url(#goldLuster)" stroke-width="2" />
+  <line x1="358" y1="62" x2="380" y2="62" stroke="url(#goldLuster)" stroke-width="2" />
+  <line x1="442" y1="58" x2="468" y2="58" stroke="url(#goldLuster)" stroke-width="2" />
+
+  <!-- Left Wall Lamp Sconce & Table Lamp -->
+  <!-- Classical table lamp left -->
+  <ellipse cx="85" cy="620" rx="42" ry="12" fill="url(#brassGrad)" />
+  <path d="M 75 620 L 80 500 L 90 500 L 95 620 Z" fill="url(#brassGrad)" />
+  <ellipse cx="85" cy="500" rx="14" ry="5" fill="url(#goldLuster)" />
+  <!-- Glass Lamp Shade -->
+  <path d="M 40 470 L 60 380 L 110 380 L 130 470 Z" fill="#FFEBB5" opacity="0.9" />
+  <ellipse cx="85" cy="470" rx="45" ry="12" fill="#FFC966" opacity="0.8" />
+  <ellipse cx="85" cy="380" rx="25" ry="7" fill="#FFF3D1" />
+  <!-- Wall sconce lamp right -->
+  <rect x="670" y="340" width="16" height="60" fill="url(#brassGrad)" rx="3" />
+  <ellipse cx="678" cy="330" rx="18" ry="24" fill="#FFDA85" opacity="0.85" />
+
+  <!-- Deep Velvet Drapery / Curtains on far left -->
+  <path d="M 0 0 C 40 100 20 300 35 600 L 0 600 Z" fill="#0C2029" opacity="0.8" />
+
+  <!-- Aura behind tutor -->
+  <circle cx="360" cy="560" r="320" fill="url(#tutorAura)" />
+
+  <!-- ================= THE AI TUTOR ================= -->
+  <!-- Hair Back Volume -->
+  <ellipse cx="360" cy="460" rx="160" ry="210" fill="url(#hairRichGrad)" />
+  <path d="M 200 450 C 180 580 190 750 250 830 L 470 830 C 530 750 540 580 520 450 Z" fill="url(#hairRichGrad)" />
+
+  <!-- Maroon Kurti Outfit & Shoulders -->
+  <path d="M 140 1020 C 150 780 230 680 300 660 L 330 710 L 390 710 L 420 660 C 490 680 570 780 580 1020 Z" fill="url(#maroonKurtiGrad)" />
+
+  <!-- Intricate Indian Gold Zari Neckline Embroidery -->
+  <path d="M 300 660 Q 360 760 420 660 Q 360 810 300 660" fill="none" stroke="url(#goldLuster)" stroke-width="8" stroke-linecap="round" />
+  <path d="M 315 675 Q 360 770 405 675" fill="none" stroke="url(#goldLuster)" stroke-width="3.5" stroke-dasharray="6,4" />
+  
+  <!-- Neckline Paisley & Floret Embellishments -->
+  <circle cx="360" cy="745" r="7" fill="url(#goldLuster)" />
+  <circle cx="335" cy="728" r="5" fill="url(#goldLuster)" />
+  <circle cx="385" cy="728" r="5" fill="url(#goldLuster)" />
+  <circle cx="320" cy="705" r="4.5" fill="url(#goldLuster)" />
+  <circle cx="400" cy="705" r="4.5" fill="url(#goldLuster)" />
+  <circle cx="308" cy="680" r="4" fill="url(#goldLuster)" />
+  <circle cx="412" cy="680" r="4" fill="url(#goldLuster)" />
+
+  <!-- Sleeve & Chest Embroidery Motifs -->
+  <!-- Left Side floral vines -->
+  <path d="M 270 760 Q 285 790 275 830" fill="none" stroke="url(#goldLuster)" stroke-width="2.5" />
+  <circle cx="280" cy="785" r="3.5" fill="url(#goldLuster)" />
+  <circle cx="272" cy="820" r="3.5" fill="url(#goldLuster)" />
+  <!-- Right Side floral vines -->
+  <path d="M 450 760 Q 435 790 445 830" fill="none" stroke="url(#goldLuster)" stroke-width="2.5" />
+  <circle cx="440" cy="785" r="3.5" fill="url(#goldLuster)" />
+  <circle cx="448" cy="820" r="3.5" fill="url(#goldLuster)" />
+  <!-- Center chest floral buta -->
+  <ellipse cx="360" cy="795" rx="16" ry="10" fill="none" stroke="url(#goldLuster)" stroke-width="2.5" />
+  <circle cx="360" cy="795" r="4" fill="url(#goldLuster)" />
+
+  <!-- Delicate Sheer Sleeves with gold cuffs -->
+  <path d="M 140 1020 C 130 920 160 840 210 790 L 260 830 C 220 900 200 970 190 1020 Z" fill="#660D1A" opacity="0.88" />
+  <path d="M 580 1020 C 590 920 560 840 510 790 L 460 830 C 500 900 520 970 530 1020 Z" fill="#660D1A" opacity="0.88" />
+
+  <!-- Elegant Arms Resting on Desk -->
+  <!-- Left Arm -->
+  <path d="M 190 1020 Q 250 1000 320 1005 L 360 1040 Q 260 1070 180 1030 Z" fill="url(#skinRadiant)" />
+  <!-- Right Arm with Traditional Gold Bangles -->
+  <path d="M 530 1020 Q 470 1000 400 1005 L 360 1040 Q 460 1070 540 1030 Z" fill="url(#skinRadiant)" />
+  
+  <!-- Intricate Gold Bangles Stack on Wrist -->
+  <rect x="470" y="975" width="40" height="32" rx="6" fill="url(#goldLuster)" stroke="#7A520A" stroke-width="1.5" />
+  <line x1="475" y1="983" x2="505" y2="983" stroke="#684205" stroke-width="1.5" />
+  <line x1="475" y1="991" x2="505" y2="991" stroke="#684205" stroke-width="1.5" />
+  <line x1="475" y1="999" x2="505" y2="999" stroke="#684205" stroke-width="1.5" />
+
+  <!-- Graceful Clasped Hands on Wooden Desk -->
+  <!-- Left Hand fingers -->
+  <path d="M 330 1000 C 350 990 380 1005 385 1020 C 375 1035 345 1030 330 1015 Z" fill="url(#skinRadiant)" />
+  <!-- Right Hand resting over left -->
+  <path d="M 350 995 C 380 985 410 1005 405 1025 C 390 1040 360 1030 345 1010 Z" fill="url(#skinRadiant)" />
+
+  <!-- Neck & Shadow -->
+  <path d="M 315 580 L 315 675 Q 360 695 405 675 L 405 580 Z" fill="url(#skinContour)" />
+  <path d="M 322 580 L 322 665 Q 360 685 398 665 L 398 580 Z" fill="url(#skinRadiant)" />
+
+  <!-- Delicate Gold Pendant / Necklace -->
+  <path d="M 330 625 Q 360 655 390 625" fill="none" stroke="url(#goldLuster)" stroke-width="3" />
+  <circle cx="360" cy="652" r="5" fill="url(#goldLuster)" />
+  <path d="M 355 656 L 360 666 L 365 656 Z" fill="url(#goldLuster)" />
+
+  <!-- Face Contour & Jawline -->
+  <path d="M 265 460 C 260 550 300 625 360 625 C 420 625 460 550 455 460 C 450 385 415 360 360 360 C 305 360 270 385 265 460 Z" fill="url(#skinRadiant)" />
+
+  <!-- Soft Radiant Cheek Blush -->
+  <ellipse cx="295" cy="515" rx="26" ry="16" fill="#D9534F" opacity="0.16" />
+  <ellipse cx="425" cy="515" rx="26" ry="16" fill="#D9534F" opacity="0.16" />
+
+  <!-- Ears & Traditional Gold Jhumka Earrings -->
+  <!-- Left Ear & Jhumka -->
+  <ellipse cx="262" cy="485" rx="14" ry="24" fill="url(#skinRadiant)" />
+  <circle cx="258" cy="502" r="6" fill="url(#goldLuster)" />
+  <path d="M 252 510 Q 258 522 264 510 Z" fill="url(#goldLuster)" stroke="#8C600B" stroke-width="1" />
+  <circle cx="258" cy="526" r="3" fill="url(#goldLuster)" />
+  <!-- Hanging pearls/beads on jhumka -->
+  <circle cx="253" cy="521" r="2" fill="#FFF8E7" />
+  <circle cx="263" cy="521" r="2" fill="#FFF8E7" />
+
+  <!-- Right Ear & Jhumka -->
+  <ellipse cx="458" cy="485" rx="14" ry="24" fill="url(#skinRadiant)" />
+  <circle cx="462" cy="502" r="6" fill="url(#goldLuster)" />
+  <path d="M 456 510 Q 462 522 468 510 Z" fill="url(#goldLuster)" stroke="#8C600B" stroke-width="1" />
+  <circle cx="462" cy="526" r="3" fill="url(#goldLuster)" />
+  <circle cx="457" cy="521" r="2" fill="#FFF8E7" />
+  <circle cx="467" cy="521" r="2" fill="#FFF8E7" />
+
+  <!-- Styled Front Hair, Center Parting & Flowing Strands -->
+  <path d="M 264 450 C 270 380 305 340 360 340 C 415 340 450 380 456 450 C 440 410 405 385 360 395 C 315 385 280 410 264 450 Z" fill="url(#hairRichGrad)" />
+  <!-- Side sweeps framing cheeks -->
+  <path d="M 264 440 C 268 500 275 550 286 570 C 278 540 270 490 266 440 Z" fill="url(#hairRichGrad)" />
+  <path d="M 456 440 C 452 500 445 550 434 570 C 442 540 450 490 454 440 Z" fill="url(#hairRichGrad)" />
+  <!-- Hair highlights with soft sheen -->
+  <path d="M 310 365 Q 360 350 410 365" fill="none" stroke="#5A3A2C" stroke-width="4.5" opacity="0.65" stroke-linecap="round" />
+
+  <!-- Elegant Bindi -->
+  <circle cx="360" cy="445" r="4.2" fill="#800020" />
+
+  <!-- Arched, Expressive Eyebrows -->
+  <path d="M 292 462 Q 318 452 342 464" fill="none" stroke="#24140D" stroke-width="4" stroke-linecap="round" />
+  <path d="M 378 464 Q 402 452 428 462" fill="none" stroke="#24140D" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Warm, Luminous, Encouraging Eyes -->
+  <!-- Left Eye -->
+  <ellipse cx="317" cy="482" rx="18" ry="11" fill="#FFFFFF" />
+  <circle cx="318" cy="482" r="9.5" fill="#3D2012" />
+  <circle cx="318" cy="482" r="5" fill="#140904" />
+  <circle cx="321" cy="479" r="2.8" fill="#FFFFFF" />
+  <circle cx="315" cy="485" r="1.2" fill="#FFFFFF" opacity="0.7" />
+  <!-- Eyeliner & Lashes Left -->
+  <path d="M 298 480 Q 317 470 336 480" fill="none" stroke="#1A0D07" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M 334 476 L 338 472" stroke="#1A0D07" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Right Eye -->
+  <ellipse cx="403" cy="482" rx="18" ry="11" fill="#FFFFFF" />
+  <circle cx="402" cy="482" r="9.5" fill="#3D2012" />
+  <circle cx="402" cy="482" r="5" fill="#140904" />
+  <circle cx="405" cy="479" r="2.8" fill="#FFFFFF" />
+  <circle cx="399" cy="485" r="1.2" fill="#FFFFFF" opacity="0.7" />
+  <!-- Eyeliner & Lashes Right -->
+  <path d="M 384 480 Q 403 470 422 480" fill="none" stroke="#1A0D07" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M 420 476 L 424 472" stroke="#1A0D07" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Defined Nose -->
+  <path d="M 355 475 Q 358 520 348 528 Q 360 535 372 528 Q 364 520 365 475" fill="none" stroke="#BD7E54" stroke-width="2.8" stroke-linecap="round" />
+
+  <!-- Warm, Intelligent Smile / Lips -->
+  <g id="tutor-mouth">
+    <path d="M 332 568 Q 360 564 388 568 Q 360 594 332 568 Z" fill="url(#lipLuster)" />
+    <!-- Natural Cupid's bow and smile line -->
+    <path d="M 334 568 Q 360 574 386 568" fill="none" stroke="#751522" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Soft Chin Definition -->
+  <path d="M 348 604 Q 360 610 372 604" fill="none" stroke="#D18F64" stroke-width="2.5" stroke-linecap="round" opacity="0.6" />
+
+  <!-- ================= DESK & CLASSICAL ACCESSORIES ================= -->
+  <!-- Classical Wooden Desk Surface -->
+  <path d="M 0 1020 L 720 1020 L 720 1280 L 0 1280 Z" fill="url(#deskGrad)" />
+  <line x1="0" y1="1020" x2="720" y2="1020" stroke="#783918" stroke-width="5" />
+  <!-- Wood grain sheen on desk -->
+  <line x1="20" y1="1035" x2="700" y2="1035" stroke="#3A170A" stroke-width="1.5" opacity="0.6" />
+  <line x1="50" y1="1070" x2="670" y2="1070" stroke="#3A170A" stroke-width="1.5" opacity="0.4" />
+
+  <!-- Left: Antique Brass Paperweight / Stamp -->
+  <path d="M 70 1080 L 90 1080 L 95 1130 L 65 1130 Z" fill="url(#brassGrad)" />
+  <circle cx="80" cy="1070" r="16" fill="url(#goldLuster)" />
+  <ellipse cx="80" cy="1130" rx="32" ry="12" fill="url(#brassGrad)" />
+
+  <!-- Center Left: Vintage Wooden Magnifying Glass -->
+  <path d="M 140 1140 L 230 1120" stroke="#5A2E14" stroke-width="12" stroke-linecap="round" />
+  <circle cx="265" cy="1115" r="34" fill="none" stroke="url(#brassGrad)" stroke-width="6" />
+  <circle cx="265" cy="1115" r="30" fill="#E8F4F8" opacity="0.25" />
+  <path d="M 250 1100 Q 265 1095 280 1105" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round" />
+
+  <!-- Right: Glass Inkwell & Feather Quill Pen -->
+  <!-- Glass Ink Bottle -->
+  <rect x="500" y="1080" width="60" height="55" rx="8" fill="#2E3842" opacity="0.85" />
+  <rect x="510" y="1090" width="40" height="38" rx="4" fill="#0C1014" />
+  <rect x="515" y="1070" width="30" height="12" rx="3" fill="url(#brassGrad)" />
+  <!-- Ink bottle glass highlights -->
+  <line x1="505" y1="1085" x2="505" y2="1125" stroke="#A6C8E0" stroke-width="2.5" opacity="0.5" />
+  <!-- Feather Quill Pen -->
+  <path d="M 528 1075 Q 560 970 630 890 Q 640 920 600 980 Q 565 1030 535 1070 Z" fill="#D6C6B2" />
+  <path d="M 530 1075 Q 570 960 630 890" fill="none" stroke="#5C4738" stroke-width="2" />
+  <!-- Delicate feather barbs -->
+  <path d="M 570 960 L 590 940 M 580 940 L 605 920 M 595 920 L 620 900" stroke="#FAF4EB" stroke-width="1.5" />
+
+  <!-- Far Right: Antique Wooden Desk Clock -->
+  <rect x="630" y="1040" width="70" height="95" rx="8" fill="#3D1809" stroke="url(#goldLuster)" stroke-width="3" />
+  <ellipse cx="665" cy="1085" rx="25" ry="25" fill="#FFFDF5" stroke="url(#brassGrad)" stroke-width="3" />
+  <!-- Clock hands -->
+  <line x1="665" y1="1085" x2="665" y2="1068" stroke="#1A0F07" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="665" y1="1085" x2="678" y2="1080" stroke="#1A0F07" stroke-width="2" stroke-linecap="round" />
+  <circle cx="665" cy="1085" r="2.5" fill="url(#goldLuster)" />
+</svg>

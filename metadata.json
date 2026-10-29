@@ -1,0 +1,10 @@
+{
+  "name": "Apk Remix FluentAI Hindi",
+  "description": "Master English vocabulary and grammar through interactive, AI-powered voice conversations and personalized lessons tailored to your specific word lists.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
